@@ -94,6 +94,8 @@ pthread_join(thread1,NULL);
 
 printf("Score : %d\n",score);
 
+fclose(testp);
+fclose(fp);
 
 return 0;
 }
